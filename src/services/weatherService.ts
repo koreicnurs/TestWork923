@@ -2,7 +2,7 @@ import axios from 'axios';
 import { CurrentWeather, Forecast } from '../types/weather';
 import { WEATHER_API } from '../constants/weather';
 
-const API_KEY = process.env.NEXT_PUBLIC_OPENWEATHER_API_KEY || "df98d3e3a716818c1f4faa121906db1d";
+const API_KEY = process.env.NEXT_PUBLIC_OPENWEATHER_API_KEY;
 
 const weatherApi = axios.create({
   baseURL: WEATHER_API.BASE_URL,
