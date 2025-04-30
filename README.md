@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌤️ Weather App
 
-## Getting Started
+Современное веб-приложение для просмотра прогноза погоды, разработанное с использованием Next.js и TypeScript.
 
-First, run the development server:
+## ✨ Особенности
 
+- 🔍 Поиск погоды по названию города
+- ⭐ Добавление городов в избранное
+- 📱 Адаптивный дизайн
+- 🌍 Поддержка русского языка
+- 📊 Детальный прогноз на 5 дней
+- 🎯 Точные данные о температуре, влажности, ветре и давлении
+
+## 🚀 Технологии
+
+- [Next.js](https://nextjs.org/) - React фреймворк
+- [TypeScript](https://www.typescriptlang.org/) - Типизированный JavaScript
+- [Bootstrap](https://getbootstrap.com/) - CSS фреймворк
+- [Zustand](https://github.com/pmndrs/zustand) - Управление состоянием
+- [OpenWeather API](https://openweathermap.org/api) - API погоды
+
+## 🛠️ Установка
+
+1. Клонируйте репозиторий:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/weather-app.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Установите зависимости:
+```bash
+cd weather-app
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Создайте файл `.env.local` в корневой директории и добавьте ваш API ключ:
+```env
+NEXT_PUBLIC_WEATHER_API_KEY=ваш_ключ_api
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Запустите приложение:
+```bash
+npm run dev
+```
 
-## Learn More
+## 📱 Использование
 
-To learn more about Next.js, take a look at the following resources:
+1. Введите название города в поисковую строку
+2. Нажмите кнопку "Поиск" или клавишу Enter
+3. Просмотрите текущую погоду и прогноз
+4. Добавьте город в избранное, нажав на звездочку
+5. Перейдите к детальному прогнозу, нажав на соответствующую кнопку
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👥 Авторы
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Ваше имя - [GitHub](https://github.com/koreicnurs)
 
-## Deploy on Vercel
+## 🙏 Благодарности
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [OpenWeather](https://openweathermap.org/) за предоставление API
+- [Next.js](https://nextjs.org/) за отличный фреймворк
+- [Bootstrap](https://getbootstrap.com/) за стильный дизайн
